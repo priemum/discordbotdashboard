@@ -9,7 +9,7 @@ import { updateWelcomeMsg, updateWelcomeChannel, updateMutedRole, updateLogsChan
 export function DashboardPage( {
     history,
     match,
-} ) {
+} ) {               
     const [user, setUser] = React.useState(null)
     const [loading, setLoading] = React.useState(true);
     const [config, setConfig] = React.useState({})
